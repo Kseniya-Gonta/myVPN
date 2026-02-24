@@ -1,0 +1,59 @@
+@@ -0,0 +1,53 @@
+*.db
+*.keep
+*.contrib*
+*.DS_Store
+*.pbxuser
+*.mode1v3
+*.idea
+*.orig
+
+### Xcode ###
+*.xccheckout
+*.xcuserstate
+*.xcscmblueprint
+**/xcuserdata/
+**/*.moved-aside
+Brewfile.lock.json
+
+# script generated files
+/.testResult
+/.monkeyTestResult
+/.allure-ee/*
+*/TestPlans/Generated
+*.lock
+tmp/
+
+
+
+# build folders
+.artifacts
+.deploy
+.build
+.index-build
+XCBuildData
+.reports
+allure-report
+.bootstrap_cache
+.swiftlint_cache
+*_log.json
+*_log.lock
+
+# tests
+*.xcresult
+
+### Tuist managed dependencies ###
+**/Derived/
+*.xcodeproj
+*.xcworkspace
+.swiftpm
+
+### Mise
+mise.local.toml
+.mise.local.toml
+
+# VSCode
+buildServer.json
+
+# exclusion
+!.gitkeep
