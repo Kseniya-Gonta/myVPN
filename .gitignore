@@ -44,7 +44,6 @@ allure-report
 
 ### Tuist managed dependencies ###
 **/Derived/
-*.xcodeproj
 *.xcworkspace
 .swiftpm
 
